@@ -14,7 +14,7 @@
     <div class="items-add">
       <label for="new-task" class="items-add__label title">Add Item</label>
       <div class="items-add__wrapper">
-        <input id="new-task" class="items-add__input input-text task" type="text">
+        <input id="new-task" class="items-add__input input-text task list-label" type="text">
         <button class="items-add__btn btn">Add</button>
       </div>
     </div>
@@ -23,20 +23,20 @@
       <ul id="incomplete-tasks" class="items-todo__incomplete-list">
         <li class="items-todo__list-item">
           <input type="checkbox" class="items-todo__input input-checkbox">
-          <label class="items-todo__label task">Pay Bills</label>
+          <label class="items-todo__label task list-label">Pay Bills</label>
           <input type="text" class="items-todo__input input-text task">
           <button class="items-todo__btn edit btn">Edit</button>
           <button class="items-todo__btn delete btn">
-            <img src="./remove.svg" alt = "symbol-delete" class="items-todo__img">
+            <img src="./remove.svg" alt = "symbol-delete" class="items-todo__img delete-img">
           </button>
         </li>
         <li class="items-todo__list-item edit-mode">
           <input type="checkbox" class="items-todo__input input-checkbox">
-          <label class="items-todo__label task">Go Shopping</label>
+          <label class="items-todo__label task list-label">Go Shopping</label>
           <input type="text" value="Go Shopping" class="items-todo__input input-text task">
           <button class="items-todo__btn edit btn">Save</button>
           <button class="items-todo__btn delete btn">
-            <img src="./remove.svg" alt = "symbol-delete" class="items-todo__img">
+            <img src="./remove.svg" alt = "symbol-delete" class="items-todo__img delete-img">
           </button>
         </li>
       </ul>
@@ -46,11 +46,11 @@
       <ul id="completed-tasks" class="items-completed__completed-list">
         <li class="items-completed__list-item">
           <input type="checkbox" class="items-completed__input input-checkbox" checked>
-          <label class="items-completed__label task">See the Doctor</label>
+          <label class="items-completed__label list-label task">See the Doctor</label>
           <input type="text" class="items-completed__input input-text task">
           <button class="items-completed__btn edit btn">Edit</button>
           <button class="items-completed__btn delete btn">
-            <img src="./remove.svg" alt = "symbol-delete" class="items-completed__img">
+            <img src="./remove.svg" alt = "symbol-delete" class="items-completed__img delete-img">
           </button>
         </li>
       </ul>

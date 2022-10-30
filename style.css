@@ -44,7 +44,8 @@
   margin: 0;
   padding: 0px;
 }
-li, 
+.items-todo__incomplete-list,
+.items-completed__completed-list, 
 .title {
   list-style: none;
 }
@@ -129,17 +130,17 @@ li,
 .input-text {
   width: 226px;
 }
-button.delete img {
+.delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+.items-completed__completed-list .list-label {
   text-decoration: line-through;
   color: #888;
 }
@@ -150,11 +151,11 @@ ul#completed-tasks label {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+.edit-mode .input-text {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+.edit-mode .list-label {
   display: none;
 }
