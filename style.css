@@ -1,8 +1,8 @@
 /* Basic Style */
-body {
+.content {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .main-image {
   width: 500px;
@@ -10,11 +10,13 @@ body {
   display: block;
   text-align: right;
 }
-.main-image img {
+.main-image__img {
   width: 100%;
 }
-.main-image .more-inf {
-  font-family: fantasy, cursive;
+.main-image__img,
+.main-image__link {
+  font-family: 'Fantasy', cursive;
+
 }
 
 @media (max-width:768px) {
